@@ -37,7 +37,7 @@
     <h2>TARJETA</h2>
     <img src="./readmeAsset/Card.png"></img>
     <h2>CODIGO QR</h2>
-    <img src="./readmeAsset/QR.png"></img>
+    <img src="./readmeAsset/Qr.png"></img>
     <h1>MANDAR DINERO</h1> 
     <p>
         Mandar dinero a tus contactos. Puedes hacerlo desde cualquiera de tus cuentas siempre y cuando tengas saldo disponible.
