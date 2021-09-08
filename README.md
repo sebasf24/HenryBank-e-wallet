@@ -1,90 +1,137 @@
-<p align='left'>
-    <img src='https://static.wixstatic.com/media/85087f_0d84cbeaeb824fca8f7ff18d7c9eaafd~mv2.png/v1/fill/w_160,h_30,al_c,q_85,usm_0.66_1.00_0.01/Logo_completo_Color_1PNG.webp' </img>
+<h1>HBANK</h1> 
+<p>
+    Hbank es una billetera electronica, que te ayudara a gestionar tu dinero, podras enviar dinero, recibir y hasta ver tu movimientos y estadisticas de los ultimos dias. Todo esto en base a una cuenta que creas cuando te registras en nuestra app. Se te asignara un CVU en pesos y otro en dolares. A partir de ahi, podras disfrutar de todas las funcionalidades que te mencionamos ya. A continuacion te mostramos un resumen visual de nuestra aplicacion.
+
 </p>
 
-# Henry
+<div>
+    <h1>HOME</h1> 
+    <img src="./readmeAsset/Home.png"></img>
+    <h1>REGISTRO Y LOGIN</h1> 
+    <h2>PASO 1 - REGISTRO INICIAL</h2> 
+    <p>Solo debes poner tus datos basicos para el registro.</p>
+    <img src="./readmeAsset/Registro1.png"></img>
+    <h2>PASO 2 - VALIDA EL CODIGO</h2> 
+    <p>Una vez termines el paso uno, te enviaremos un correo electronico con el codigo correspondiente.</p>
+    <img src="./readmeAsset/Registro2.png"></img>
+    <h2>PASO 3 - DAR ALTA A TU CUENTA</h2> 
+    <p>Una vez valides tu codigo, tendras que completar un ultimo paso. Llena el formulario con los datos complementarios.</p>
+    <img src="./readmeAsset/Registro3.png"></img>
+    <h2>PASO 4 - LOGIN</h2> 
+    <p>Finalmente ya puedes logearte con tu email y contraseña registrados, ahora puedes disfrutar de Hbank.</p>
+    <img src="./readmeAsset/Login.png"></img>
+<div>
 
-## Objetivos del Proyecto
+<div>
+    <h1>POSCONSOLIDADA</h1>
+    <p>
+        Una vez inicies session, podras empezar a navegar y explorar todas las funcionalidades que tenemos para ti
+    </p>
+    <img src="./readmeAsset/Poscon.png"></img>
+    <h2>MENU LATERAL</h2>
+    <img src="./readmeAsset/Menu.png"></img>
+    <h1>RECARGAR DINERO</h1> 
+    <p>
+        Recarga dinero a cualquiera de tus dos cuentas por medio de tarjeta credito o deboto, o atravez de un codigo QR que presentaras en cualquier punto de Todo Pago.
+    </p>
+    <h2>TARJETA</h2>
+    <img src="./readmeAsset/Card.png"></img>
+    <h2>CODIGO QR</h2>
+    <img src="./readmeAsset/QR.png"></img>
+    <h1>MANDAR DINERO</h1> 
+    <p>
+        Mandar dinero a tus contactos. Puedes hacerlo desde cualquiera de tus cuentas siempre y cuando tengas saldo disponible.
+    </p>
+    <img src="./readmeAsset/Mandar.png"></img>
+    <h1>MOVIMIENTOS Y ESTADISTICAS</h1>
+    <p>
+        Puedes ver tus ultimos movimientos en los ultimos 15 y 7 dias, asi como los que realizaste el mismo dia. de igual manera tendras informacion un poco mas especifica, ya que contaras con una opcion de estadisticas, en las cuales te muestraremos como fue el comportamiento de tu dienro, en el trascurso de los ultimos 7 dias encuanto a ingreso y egresos.
+    </p>
+    <h2>ULTIMOS MOVIMIENTOS</h2>
+    <img src="./readmeAsset/UlMov.png"></img>
+    <h2>ESTADISTICAS</h2>
+    <img src="./readmeAsset/Est.png"></img>
+</div>
+<div>
+<h1>CONTACTOS</h1>
+    <p>
+        Podras ver todos los contactos que tienes registrados en tu cuenta.
+    </p>
+    <img src="./readmeAsset/Conta.png"></img>
 
-- Construir una App JavaScript desde cero.
-- Afirmar y conectar los conceptos aprendidos en la carrera.
-- Aprender mejores prácticas.
-- Aprender y practicar el workflow de GIT.
-- Utilizar Metodologías Ágiles.
-- Trabajar en equipo.
-- Usar y practicar testing.
+</div>
+<h1>PREGUNTAS Y RESPUESTAS</h1>
+    <p>
+        Si quieres conocer o tienes dudas acerca de como funciona la aplicacion, tendras un opcion para responder lo que necesites.
+    </p>
+    <img src="./readmeAsset/FAQ.png"></img>
 
-## Trabajo en Equipo
-
-En este proyecto, van a trabajar en equipo de 4 a 6 personas. Van a trabajar siempre en pares, al terminar una tarea, van a cambiar de pareja para llegar a trabajar con todos los compañeros.
-Ninguna tarea debería llevar más de dos días en terminar, si esto sucede contactar con tu PM.
-
-Vamos a usar **GIT** para gestionar el código y **Trello** para gestionar el proyecto y facilitar la colaboración. Recomendamos el siguiente *workflow* para una tarea dada:
-
-- Crear una Card de Trello para una tarea.
-- Asignar un equipo de dos para trabajar en la tarea.
-- Hacer un `branch` por cada card de trello (incluir el nombre o ID de la card en el nombre de la branch).
-- Codear en equipo hasta completar la tarea (con tests).
-- Pullear de master a nuestra branch (para mergear código nuevo de master).
-- Pushear nuestra Branch a git y hacer un `PR` indicando la Card que cierra.
-- Mover la Card de trello a `Review`.
-- Asignar a otro equipo de dos para que revise el `PR`.
-- Iterar hasta que no haya más comentarios:
-    + Si hay un comentario, el equipo original debe codear de nuevo la solución y volver a subir el código a github.
-    + Si no hay comentarios, se aprueba el `PR` y se mergea a master
-- Mergear el `PR` a master.
-- Volver al punto 1 hasta terminar el proyecto.
-
-## Horarios y Fechas
-
-El proyecto dura cuatro semanas. El lunes siguiente al terminar el sprint se realiza una demo donde se muestra al TL el progreso de esa semana. La última semana tiene el `demo final` donde se muestra el proyecto a todo el cohorte.
-
-El horario de trabajo sigue siendo de 9AM a 18PM.
-Todos los días a un horario a definir con su TL habrá un STAND UP para revisar las tareas del día, el progreso y si están bloqueados y/o necesitan ayuda.
-
-## Comenzando
-
-Vamos iniciar clonando el repo de Github que se les indicará llamado: `ec-{Cohorte}-{Grupo}`. Donde vamos a invitar a todos colaboradores del proyecto.
-
-Nosotros te vamos a dar un `boilerplate` con los modelos de Usuario y el flow de autenticación funcionando. Sobre este código vas a branchear para empezar a agregar tus propias features.
-
-__IMPORTANTE:__ Es necesario contar minimamente con la última versión estable de Node y NPM. Asegurarse de contar con ella para poder instalar correctamente las dependecias necesarias para correr el proyecto.
-
-Actualmente las versiónes necesarias son:
-
- * __Node__: 12.18.3 o mayor
- * __NPM__: 6.14.16 o mayor
-
-Para verificar que versión tienen instalada:
-
-> node -v
->
-> npm -v
-
-## BoilerPlate
-
-El boilerplate cuenta con dos carpetas: `api` y `client`. En estas carpetas estará el código del back-end y el front-end respectivamente.
-
-En `api` vas a tener que crear un archivo llamado: `.env` que tenga la siguiente forma:
-
-```
-DB_USER=usuariodepostgres
-DB_PASSWORD=passwordDePostgres
-DB_HOST=localhost
-```
-
-Tenés que reemplazar `usuariodeX` y `passwordDeX` con tus propias credenciales para conectarte a postgres. Este archivo va ser ignorado por github, ya que contiene información sensible (las credenciales).
-
-El contenido de `client` fue creado usando: Create React App.
-
-### Requerimientos
-
-La aplicación del henry bank va a contar con los siguientes requerimientos:
+</div>
 
 
-### Milestones
+<div>
+    <h1> COMO CORRER EL PROYECTO ? </h1>
+        <ol>
+        <li>Crea una base de datos en MongDB. En este ejemplo le pondremos "henrybank". Se crea con el siguiente comando: use henrybank</li>
+        <li>Crea un archivo dentro de la carpeta "api" llamado .env con el siguiente contenido:
+            <pre>
+                    <code>
+                    DATABASE = 'mongodb://localhost/henrybank'
+                    ADMIN_EMAIL = hbank.group5@gmail.com
+                    PASSW_EMAIL = HenryBankHenryBank
+                    BACK_URL = http://localhost:3000/
+                    JWT_SECRET = lamejorappdehenryfinal
+                    </code>
+            </pre>
+        </li>
+        <li>Crea un archivo dentro de la carpeta "native" llamado en.jsv con el siguiente contenido:
+            <pre>
+                    <code>
+                        module.exports = { BACK_URL: `http://ipv4DeTuPC:3000`}
+                    </code>
+            </pre>
+        </li>
+        <li>Posicionate en la carpeta api y ejecuta el comando npm install</li>
+        <li>Posicionate en la carpeta native y ejecuta el comando install</li>
+        <li>Correr los servers</li>
+        <li>Abrí dos consolas</li>
+        <li>En una consola posicionate en la carpeta api y ejecuta el comando npm run dev</li>
+        <li>En la otra consola, posicionate en la carpeta client y ejecuta el comando expo start</li>
+        <li>Abre tu app de expo de tu celular y escanea el codigo QR </li>
+        </ol>
+</div>
+<div>
+    <h1> TECNOLOGIAS USADAS </h1>
+        <h2>FRONTEND</h2>
+        <ul>
+            <li>React Native</li>
+            <li>Redux</li>
+            <li>Axios</li>
+        </ul>
+        <h2>BACKEND</h2>
+        <ul>
+            <li>Nodejs</li>
+            <li>MoleculerJS</li>
+            <li>Mongosee (MongoDB)</li>
+            <li>Nodemailer</li>
+            <li>JWT</li>
+            <li>CHART JS</li>
+        </ul>
 
-Este proyecto tiene muchas tareas para realizar, asi que es fácil sentirse abrumado. Estas son las features que esperamos que muestres en cada demo:
+</div>
+<div>
+    <h1> EQUIPO </h1>
+    <p>El equipo de desarrollo lo conforman los siguientes desarrolladores:</p>
+        <ul>
+            <li><a href="https://github.com/CamilolIn" rel="nofollow">Camilo Lindarte </a></li>
+            <li><a href="https://github.com/quasirsg" rel="nofollow">Alexis Romano </a></li>
+            <li><a href="https://github.com/nvlozano" rel="nofollow">Carlos Saballe</a></li>
+            <li><a href="https://github.com/martinc1991" rel="nofollow">Martin Catala</a></li>
+            <li><a href="https://github.com/JuanFernandezJubin" rel="nofollow">Juan Ignacio Fernandez</a></li>
+            <li><a href="https://github.com/olivertborges" rel="nofollow">Olivert Borges </a></li>
+            <li><a href="https://github.com/gabbies86" rel="nofollow">Gabriela MARCIANO </a></li>
+            <li><a href="https://github.com/Ceci-Caccamo" rel="nofollow">Ceci Caccamo </a></li>
+            <li><a href="https://github.com/sebasf24" rel="nofollow">Sebastian Ferreyra.</a></li>
+        </ul>
 
-### Nota
-npm install -g expo-cli 
+</div>
